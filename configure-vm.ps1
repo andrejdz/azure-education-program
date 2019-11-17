@@ -1,3 +1,5 @@
+$ErrorActionPreference = "Stop";
+
 # Install IIS (with Management Console)
 Install-WindowsFeature -name Web-Server -IncludeManagementTools
 
